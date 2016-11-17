@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.herik21.pokemongo.MapsActivity">
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        layout="@layout/activity_maps"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left|start"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/pkcenter"
+        android:layout_marginBottom="48dp"
+        app:layout_anchorGravity="top|left"
+        app:backgroundTint="@android:color/holo_blue_dark" />
+
+</android.support.design.widget.CoordinatorLayout>
